@@ -67,6 +67,7 @@ def main():
             Text.text = f.read()
             if Text.text is None:
                 print("Contents of Text cannot be None!")
+                sys.exit()
             else:
                 formatting()
     except OSError as e:
