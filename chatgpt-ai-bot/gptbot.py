@@ -51,5 +51,3 @@ class GPTBot:
         )
         self.__updateMsgs(response['choices'][0]['message']['content'], ROLE_ASSISTANT)
         return response
-
-
